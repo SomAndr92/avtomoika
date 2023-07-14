@@ -1,7 +1,14 @@
 .img1{
-    height: 350px;
+    height: 100%;
     width: 100%;
+    max-width: 500px;
+}
 
+@media(max-width: 1200px){
+    .img1{
+        height: 340px;
+
+    } 
 }
 
 .box_big{
@@ -53,4 +60,20 @@
     .item{
         width: 100%;  
     }
+}
+
+.fon1{
+    background: url('full_A1.jpg') no-repeat;
+    background-color: #161618 ; 
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+.fon2{
+    background: url('full_k.jpg') no-repeat;
+    height: 600px;
+   
+    background-position: center;
+    width: 100%;
 }
